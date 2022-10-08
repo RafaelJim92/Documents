@@ -1,0 +1,44 @@
+body{
+    background-color: #fca6c9;
+    body margin:0 auto;
+    text-align: center;
+}
+
+
+/* header style */
+.header 
+{
+
+    text-align: center;
+    color:white;
+   
+}
+
+.header:hover{
+    color: black;
+}
+
+/* body css */
+
+.img-prez{
+    width: 300px;
+}
+
+/* body css */
+
+.center {
+    text-align: left;
+    list-style-position: inside;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 2em;
+}
+
+main{
+    width: 40%;
+    display: inline-block;
+}
+.quote{
+    color: white;
+}
+
