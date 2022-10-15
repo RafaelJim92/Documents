@@ -1,3 +1,7 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +12,7 @@ nav a{
     text-align: right;
     color: #FFFAFA;
     text-decoration: none;
+    padding: 35px;
 
 }
 #hero-msg h1{
@@ -24,6 +29,9 @@ nav a{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 
 
 #background {
@@ -33,6 +41,10 @@ main section{
 
 body{
     background-color: #1463f3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #1463f3;
@@ -46,6 +58,7 @@ nav a:hover{
     background-color: #84a4fc;
     color: #FFFAFA;
     text-decoration: none;
+    font-size: 18px;
 }
 .join{
     background-color: #84a4fc;
@@ -67,11 +80,16 @@ nav a:hover{
 
 .msg{
     background-color: #1463f3;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 35px;
 }
 
 footer{
     background-color: #1463f3;
     color: #FFFAFA;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #FFFAFA;
@@ -88,24 +106,57 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
-
+footer .social img{
+    padding-top: 15px;
+}
 
 
 .home-title{
     color: #FFFAFA;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #FFFAFA;
+    
+
+}
+
+h2{
+    margin: 0;
 }
 
 
 .msg h2{
     color: #FFFAFA;
+    font-family: 'Merriweather', serif;
 }
 .msg p{
     color: #FFFAFA;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .logo{
     width: 80px;
+}
+#logo_link{
+    padding-top: 20px;
+}
+.book, .join{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.icon{
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #FFFAFA;
 }
