@@ -1,0 +1,28 @@
+#river1 > img{
+    float: left;
+    width: 55%;
+    margin-right: 20px;
+    border: solid black 10px;
+}
+
+#river2 > img{
+    float: right;
+    width: 55%;
+    margin-left: 20px;
+   
+    border: solid black 10px;
+}
+
+#river3 > h2{
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+}
+#river2 > h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
