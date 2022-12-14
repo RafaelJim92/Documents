@@ -38,7 +38,7 @@ text-align:right;
 .header{
 	height:100vh;
 	width:100%;
-	background-image:linear-gradient(rgba(4,8,60,1),rgba(4,8,60,0.1)),url('images/home1.jpg');
+	background-image:linear-gradient(rgba(4,8,60,1),rgba(4,8,60,0.1)),url('../images/home1.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;	
@@ -277,8 +277,51 @@ margin-top:20px;
 .contact h1{
 	text-align:center;
 	color:white;
-	font-size:100px;
-	padding:200;
+	font-size:40px;
+	padding:40;
 	
 }
+.names-input{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 
+input{
+	height: 50px;
+	text-align: center;
+	width: 200px;
+	font-size: 20px;
+}
+
+
+.email-input{
+	text-align: center;
+	margin-top: 40px;
+}
+.input-email{
+	width: 400px;
+}
+.text-area-input{
+	text-align: center;
+	margin-top: 40px;
+	padding: 20px;
+}
+.input-text-area{
+	width: 400px;
+	text-align: center;
+}
+.submit-message{
+	text-align: center;
+}
+button{
+	height: 50px;
+	width: 200px;
+}
+button:hover{
+	cursor: pointer;
+}
+.site-plan{
+	text-decoration: none;
+	color:#0f0f10b3;
+}
